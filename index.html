@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Generate a <br><span id="h1-green-part">random password<span></h1>
+            <p>Never use an insecure password again.</p>
+            <div class="heading-action">
+                <button id="generate-passwords-btn" onclick="generatePasswords()">Generate passwords</button>
+                <input type="number" id="password-length" placeholder="Password length"></input>
+                <div class="characters-container">
+                    <span id="char-label">Use these characters: </span>
+                <div class="characters">
+                    <input type="checkbox" id="number-checkbox" checked ></input>
+                    123
+                </div>
+                <div class="characters">
+                    <input type="checkbox" id="special-characters-checkbox" checked></input>
+                    #$!
+                </div>
+        </div>
+    </div>
+    </div>
+    <div class="password-generator-container">
+        <hr>
+        <div class="generated-passwords">
+            <p id="first-password"></p>
+            <p id="second-password"></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made by ptomeccc</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
