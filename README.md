@@ -15,7 +15,8 @@ A secure and customizable password generator built with JavaScript that allows u
 
 ## Demo
 
-[Add screenshots or GIFs of your application here]
+![image](https://github.com/user-attachments/assets/2fb4c5b7-5f0b-4c96-a32a-1f0e21d4cb36)
+
 
 ## Installation
 
